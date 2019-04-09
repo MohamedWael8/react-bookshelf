@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
-import BookShelf from './MainLayout/MainLayout/BookShelf/BookShelf';
+import Router from './Layout/Router'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <BookShelf shelfTitle="Currently Reading"/>
-        <BookShelf shelfTitle="Want to Read"/>
-        <BookShelf shelfTitle="Read"/>
+        <Router />
       </div>
     );
   }
